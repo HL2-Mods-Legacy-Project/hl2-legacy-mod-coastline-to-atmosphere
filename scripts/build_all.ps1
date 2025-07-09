@@ -1,12 +1,11 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
-  -Version "<version>" `
+  -Version "2.0.0" `
   -PreReleaseVersion "beta.1" `
-  -OutputFilePrefix "<output file prefix>" `
-  -ModName "<mod name>" `
-  -ModFolder "<mod folder>" `
-  -AdditionalModFolders @() `
+  -OutputFilePrefix "Coastline_to_Atmosphere" `
+  -ModName "Coastline to Atmosphere" `
+  -ModFolder "Coastline_to_Atmosphere" `
   -ModFilesPath "$PSScriptRoot\..\game" `
-  -ModBaseFilesUrl "<url to mod base files zip>" `
-  -ModBaseFilesUrlHash "<mod base files zip sha256>" `
-  -ModReadmePath "<mod readme path>" `
+  -ModBaseFilesUrl "https://github.com/HL2-Mods-Legacy-Project/hl2-legacy-registry/releases/download/coastline-to-atmosphere/Coastline-to-Atmosphere-Original.zip" `
+  -ModBaseFilesUrlHash "ccaa541e6b043907252ca9672d0fb10cced800bd6e2254e23ec24a3c7025271f" `
+  -ModReadmePath "C to A Read Me.txt" `
   -PublishPath "$PSScriptRoot\..\artifacts\publish"
